@@ -1,0 +1,16 @@
+@media(max-width:29px){
+
+    .cabecalho{
+        flex-direction: column;
+    }
+
+    .cabecalho nav{
+        flex-direction: nowrap;
+    }
+
+    .cabecalho nav{
+        font-size: 3rem;
+        padding: 5% 0;
+    }
+    
+}
