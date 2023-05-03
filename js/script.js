@@ -6,4 +6,4 @@
 // console.log(nome);
 
  //Recuperando um elemento button que está no index.html
- const btn  = 
+ const btn  = ey5
