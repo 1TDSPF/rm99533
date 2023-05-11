@@ -1,0 +1,35 @@
+
+
+//CRIANDO UMA FUNÇÃO PARA RECEBER O BOTÃO
+function insereNumero(botao,visor) {
+    visor.value += botao.value;
+}
+
+// function resultado(visor) {
+
+//     let novoVisor = visor.value.split("+");
+
+//     let resultadoOperacao = 0;
+
+//     novoVisor.forEach((nr)=> {
+//         resultadoOperacao += parseInt(nr);
+//     });
+//     console.log(resultadoOperacao);
+
+// }
+
+function resultado(visor) {
+
+    let resultadoOperacao = 0;
+
+    visor.forEach((nr)=> {
+        if(nr == "+" ){
+            resultadoOperacao += parseInt(nr);
+        }else if(nr == "-" ){
+            resultadoOperacao -= parseInt(nr);
+        }
+        
+    });
+    console.log(resultadoOperacao);
+
+}
