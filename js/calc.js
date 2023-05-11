@@ -24,5 +24,4 @@ function resultado(visor) {
     console.log(soma);
     let subtracao = visor.value.split("-");
     console.log(subtracao);
-
 }
